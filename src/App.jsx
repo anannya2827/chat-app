@@ -51,10 +51,10 @@ export default function App() {
           <div style={styles.brandBadge}>v2.0 LIVE</div>
           <h1 style={styles.mainTitle}>DevChat Hub</h1>
           <p style={styles.subtitle}>Enter workspace pipelines, coordinate with teams, and stream logs in real time.</p>
-          <button onClick={() => signInWithPopup(auth, provider)} style={styles.primaryBtn}>
-            <img src="https://fonts.gstatic.com/s/i/productlogos/googleg/v6/web-24dp/logo_googleg_color_24dp.png" alt="G" style={styles.btnIcon}/>
-            Secure Authorization via Google
-          </button>
+        <button onClick={() => signInWithPopup(auth, provider)} style={styles.primaryBtn}>
+          <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google Logo" style={styles.btnIcon}/>
+          Secure Authorization via Google
+        </button>
         </div>
       </div>
     );
