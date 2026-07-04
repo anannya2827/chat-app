@@ -4,7 +4,7 @@ import { getFirestore, collection, addDoc, serverTimestamp, query, where, orderB
 
 // Your exact verified credentials from the console
 const firebaseConfig = {
-  apiKey: "AIzaSyAZVLuhQ6fl9yhMTv1ZButEtSuZhW39lrk",
+  apiKey: "AIzaSyA0VQ1fYhmXdgIGZZS7LoDat5zbzdU-oAQ",
   authDomain: "chat-app-9a033.firebaseapp.com",
   projectId: "chat-app-9a033",
   storageBucket: "chat-app-9a033.firebasestorage.app",
