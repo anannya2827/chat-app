@@ -12,7 +12,7 @@ export const fetchFromAPI = async (url) => {
   };
 
   try {
-    // Dynamically append parameters cleanly without overlapping
+    
     const connector = url.includes('?') ? '&' : '?';
     const finalUrl = `${BASE_URL}/${url}${url.includes('maxResults=') ? '' : `${connector}maxResults=50`}`;
     
